@@ -19,7 +19,7 @@ void initGame(Game *game)
     SDL_Surface *surface = NULL;
 
     // Background image
-    surface = IMG_Load("Assets/BG.png");
+    surface = IMG_Load("assets/BG.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -32,7 +32,7 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
 
     // Obstacle image
-    surface = IMG_Load("Assets/Crystal.png");
+    surface = IMG_Load("assets/Crystal.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -45,7 +45,7 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
     
     // main character image in idle mode
-    surface = IMG_Load("Assets/penguin.png");
+    surface = IMG_Load("assets/penguin.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -57,7 +57,7 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
     
     // main character image in walk mode
-    surface = IMG_Load("Assets/penguinwalk.png");
+    surface = IMG_Load("assets/penguinwalk.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -69,7 +69,7 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
 
     // main character image in jump mode
-    surface = IMG_Load("Assets/penguinjump.png");
+    surface = IMG_Load("assets/penguinjump.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -81,7 +81,7 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
 
     // ground tile image
-    surface = IMG_Load("Assets/tile.png");
+    surface = IMG_Load("assets/tile.png");
     if(surface == NULL)
     {
         printf("Cannot find image!!\n");
@@ -92,9 +92,9 @@ void initGame(Game *game)
     SDL_FreeSurface(surface);
 
     // Load Sounds
-    game->jumpSound = Mix_LoadWAV("Assets/jump.wav");
+    game->jumpSound = Mix_LoadWAV("assets/jump.wav");
     Mix_VolumeChunk(game->jumpSound, 192);
-    game->scoreSound = Mix_LoadWAV("Assets/score.wav");
+    game->scoreSound = Mix_LoadWAV("assets/score.wav");
     
 
     game->gameStatus = GAME_OFF;
@@ -112,8 +112,8 @@ void initGame(Game *game)
     game->tux.animFrame = 0;
     
     // Load fonts
-    game->font2 = TTF_OpenFont("Assets/font.ttf",24);
-    game->font = TTF_OpenFont("Assets/font2.ttf", 48);
+    game->font2 = TTF_OpenFont("assets/font.ttf",24);
+    game->font = TTF_OpenFont("assets/font2.ttf", 48);
     if(!game->font)
     {
         printf("Cannot find font!!\n");
