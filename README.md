@@ -31,3 +31,6 @@ git clone https://github.com/Aanchal128/C_Linux-Project.git
 make
 ./game
 ```
+## Resources
+- SDL2 documentation. https://wiki.libsdl.org/FrontPage
+- LazyFoo SDL2 tutorials. http://lazyfoo.net/tutorials/SDL/
