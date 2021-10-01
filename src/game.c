@@ -460,14 +460,14 @@ int main(int argc, char *argv[])
     // renderer ---> to draw something on the window
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
     
-    Game game;  // declare struct Game
+    Game game;  // declare game object
     game.renderer = renderer;
 
     TTF_Init();  // for fonts
 
     Mix_OpenAudio(MIX_DEFAULT_FREQUENCY, MIX_DEFAULT_FORMAT, MIX_DEFAULT_CHANNELS, 4096);  // for sound effects
 
-    // initialize game objects
+    // initialize game object
     initGame(&game);
 
     // Event loop
