@@ -1,7 +1,7 @@
 # C_Linux-Project
 
 # Tux-Run
-"https://docs.google.com/presentation/d/1c_kkLRPHJsqfpVns9Gvq72dWflqasWDPHZTPe8TD1iI/edit?usp=sharing"
+[Presentation](https://docs.google.com/presentation/d/1c_kkLRPHJsqfpVns9Gvq72dWflqasWDPHZTPe8TD1iI/edit?usp=sharing)
 
 ## [](https://github.com/Aanchal128/C_with_Linux/tree/master/Project#description)Description
 
